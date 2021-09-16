@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Java Script</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div class="wrapper app">
+		<p class="title">
+			Надежен ли ваш пароль?
+		</p>
+		<ol class="requirements">Надежный пароль должен: <li>иметь длину более 6 символов</li>
+			<li>включать строчные буквы</li>
+			<li>включать заглавные буквы</li>
+			<li>включать цифры</li>
+			<li>включать хотя бы 1 специальный символ (*, №, ;, %, $ и пр.)</li>
+		</ol>
+		<p class="title small">
+			Введите ваш пароль для проверки его надежности
+		</p>
+		<div class="check_box">
+			<input class="input_pass" type="text" placeholder="Ваш пароль">
+			<button>проверить</button>
+		</div>
+		<div class="result">
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
